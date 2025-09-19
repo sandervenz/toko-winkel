@@ -167,9 +167,9 @@ export default function Home() {
 
       {/* About Section */}
       <div className="hero bg-base-100 py-16">
-        <div className="hero-content flex-col lg:flex-row-reverse gap-8">
-          <div className="lg:w-1/2">
-            <div className="relative h-[300px] md:h-[400px] w-full rounded-lg overflow-hidden border-8 border-white">
+        <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-8"> {/* Tambahkan flex-col-reverse di sini */}
+          <div className="lg:w-1/2 w-full h-[300px] md:h-[400px]">
+            <div className="relative w-full h-full rounded-lg overflow-hidden border-8 border-white">
               <Image
                 src="/parents.jpg"
                 alt="Happy Family"
